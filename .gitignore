@@ -1,0 +1,37 @@
+# Keil MDK build and browsing artifacts
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.o
+*.d
+*.crf
+*.dep
+*.iex
+*.htm
+*.build_log.htm
+JLinkLog.txt
+JLinkSettings.ini
+*.uvguix.*
+*.uvoptx
+*.bak
+*.tmp
+
+# IDE / operating system temporary files
+*.log
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+
+# CubeMX generated backups
+*.ioc.bak
+
+# Keil generated build, linker and local debug directories
+MDK-ARM/*/
+!MDK-ARM/RTE/
+!MDK-ARM/RTE/_OLED/
+!MDK-ARM/RTE/_OLED/RTE_Components.h
+MDK-ARM/DebugConfig/
