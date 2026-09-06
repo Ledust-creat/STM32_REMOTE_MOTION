@@ -1,0 +1,50 @@
+# Keil build artifacts
+
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.o
+*.d
+*.crf
+*.dep
+
+# Keil temporary files
+
+*.uvguix.*
+*.uvoptx
+*.uvprojx.bak
+*.bak
+*.tmp
+
+# Keil generated project files
+
+*.build_log.htm
+*.htm
+*.lnp
+*.sct
+
+# Debug files
+
+JLinkLog.txt
+JLinkSettings.ini
+
+# IDE temporary files
+
+*.log
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+
+# CubeMX backup
+
+*.ioc.bak
+
+# Keil generated folders
+
+**/Objects/
+**/Listings/
+**/DebugConfig/
